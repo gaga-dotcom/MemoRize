@@ -1,0 +1,37 @@
+{
+  "name": "memorize",
+  "version": "4.0.0",
+  "description": "MemoRize \u2014 Modern Offline Flashcard Study App",
+  "main": "out/main/index.js",
+  "author": "Gela Lomidze",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "pack": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.400.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.24.1",
+    "recharts": "^2.12.7",
+    "rehype-katex": "^7.0.0",
+    "remark-math": "^6.0.0",
+    "sql.js": "^1.10.3",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3",
+    "electron-vite": "^2.3.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
+  }
+}

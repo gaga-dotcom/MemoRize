@@ -1,0 +1,41 @@
+appId: com.gelolomidze.memorize
+productName: MemoRize
+copyright: "Gela Lomidze"
+
+directories:
+  buildResources: build
+  output: dist
+
+files:
+  - out/**/*
+  - "!**/*.map"
+
+# sql.js wasm must not be inside asar (binary file)
+asarUnpack:
+  - node_modules/sql.js/dist/**
+  - node_modules/sql.js/**
+
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  icon: build/icon.ico
+
+mac:
+  target:
+    - target: dmg
+      arch: [x64, arm64]
+  icon: build/icon.icns
+  category: public.app-category.education
+
+linux:
+  target:
+    - target: AppImage
+      arch: [x64]
+  icon: build/icon.png
+  category: Education
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
