@@ -25,7 +25,7 @@ You should see something like `v20.x.x` ✓
 
 ## Step 2 — Install dependencies
 
-Open a terminal, navigate into the `memorize2` folder, and run:
+Open a terminal, navigate into the `MemoRize` folder, and run:
 ```
 npm install
 ```
@@ -48,7 +48,7 @@ The app opens as a native desktop window. Done. ✅
 ### Windows
 Open **Command Prompt** or **PowerShell**:
 ```cmd
-cd C:\Users\YourName\Downloads\memorize2
+cd C:\Users\YourName\Downloads\MemoRize
 npm install
 npm run dev
 ```
@@ -56,7 +56,7 @@ npm run dev
 ### macOS
 Open **Terminal** (`⌘ Space` → Terminal):
 ```bash
-cd ~/Downloads/memorize2
+cd ~/Downloads/MemoRize
 npm install
 npm run dev
 ```
@@ -64,7 +64,7 @@ npm run dev
 ### Linux — Fedora / Ubuntu / Debian / Arch
 No extra system packages needed. Electron ships its own Chromium.
 ```bash
-cd ~/Downloads/memorize2
+cd ~/Downloads/MemoRize
 npm install
 npm run dev
 ```

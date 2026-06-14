@@ -70,7 +70,7 @@ Visual design follows a dark-only theme with soft contrast, clean typography, an
 ## Project Structure
 
 ```
-memorize2/
+MemoRize/
 ├── electron/
 │   ├── main/
 │   │   ├── index.ts              # App entry, window creation, IPC handler registration
