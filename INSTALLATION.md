@@ -81,7 +81,7 @@ All accounts, decks, cards, and study history are saved in a local SQLite databa
 | macOS | `~/Library/Application Support/memorize/memorize.db` |
 | Linux | `~/.config/memorize/memorize.db` |
 
-**The ZIP file contains no user data.** Each machine starts with a fresh empty database. Your data never leaves your computer.
+Each machine starts with a fresh empty database. Your data never leaves your computer.
 
 To start completely fresh (delete all data):
 ```bash
