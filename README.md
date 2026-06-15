@@ -35,7 +35,7 @@ Built with Electron + React 18 + TypeScript + SQLite. No internet. No cloud. No 
 ## Quick Start
 
 ```bash
-git clone https://github.com/<username>/MemoRize.git
+git clone https://github.com/gaga-dotcom/MemoRize.git
 cd MemoRize
 npm install
 npm run dev
